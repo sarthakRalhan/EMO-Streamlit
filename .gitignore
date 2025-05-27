@@ -32,7 +32,10 @@ Thumbs.db
 # Project specific
 models/EmoAffectnet/*.h5
 models/EmoAffectnet/*.pth
+models/EmoAffectnet/*.h5:Zone.Identifier
+models/EmoAffectnet/*.pth:Zone.Identifier
 models/LSTM/*.h5
+models/LSTM/*.h5:Zone.Identifier
 *.mp4
 *.avi
 *.mov 
