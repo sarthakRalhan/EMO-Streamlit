@@ -29,6 +29,18 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
+4. Download the required model files:
+   - Create the following directory structure:
+     ```
+     models/
+     ├── EmoAffectnet/
+     │   ├── weights_0_66_37_wo_gl.h5
+     │   └── torchscript_model_0_66_37_wo_gl.pth
+     └── LSTM/
+         └── RAVDESS_with_config.h5
+     ```
+   - Download the model files from [Google Drive](https://drive.google.com/drive/folders/your-folder-id) and place them in their respective directories
+
 ## Usage
 
 1. Run the Streamlit app:
@@ -58,6 +70,4 @@ streamlit run app.py
 - Python 3.10
 - See requirements.txt for full list of dependencies
 
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details. 
+#

@@ -30,7 +30,9 @@ ehthumbs.db
 Thumbs.db
 
 # Project specific
-models/*.h5
+models/EmoAffectnet/*.h5
+models/EmoAffectnet/*.pth
+models/LSTM/*.h5
 *.mp4
 *.avi
 *.mov 
