@@ -14,7 +14,7 @@ A Streamlit application for real-time emotion analysis in videos using the EMO A
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/EMO-Streamlit.git
+git clone https://github.com/sarthakRalhan/EMO-Streamlit.git
 cd EMO-Streamlit
 ```
 
@@ -39,7 +39,7 @@ pip install -r requirements.txt
      └── LSTM/
          └── RAVDESS_with_config.h5
      ```
-   - Download the model files from [Google Drive](https://drive.google.com/drive/folders/your-folder-id) and place them in their respective directories
+   - Download the model files from [One Drive](https://adobe-my.sharepoint.com/:f:/p/sralhan/EpsJojkWRlpHuKNNAk8qqfsB-OfADYelzYciFRgszuE77A?e=dzmTSw) and place them in their respective directories
 
 ## Usage
 
@@ -62,7 +62,7 @@ streamlit run app.py
 - `app.py`: Main Streamlit application
 - `run.py`: Core emotion analysis script
 - `visualization.py`: Video visualization script
-- `models/`: Directory containing model weights
+- `models/`: Directory containing model weights (not included in repo)
 - `functions/`: Helper functions and utilities
 
 ## Requirements
@@ -70,4 +70,5 @@ streamlit run app.py
 - Python 3.10
 - See requirements.txt for full list of dependencies
 
-#
+
+
