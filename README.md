@@ -18,7 +18,7 @@ git clone https://github.com/sarthakRalhan/EMO-Streamlit.git
 cd EMO-Streamlit
 ```
 
-2. Create and activate a virtual environment:
+2. Create and activate a virtual environment using pyhton 3.10:
 ```bash
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
@@ -67,7 +67,7 @@ streamlit run app.py
 
 ## Requirements
 
-- Python 3.10
+- Python 3.10 ( I did it on python 3.10.17)
 - See requirements.txt for full list of dependencies
 
 
